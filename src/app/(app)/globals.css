@@ -2,56 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    /* Blanco */
-    --foreground: 336 24% 20%;
+    --background: 30 20% 95%;
+    /* Crema claro (para el fondo) */
+    --foreground: 30 10% 10%;
     /* Marrón oscuro (para textos sobre fondos claros) */
-    --card: 0 0% 100%;
-    /* Blanco */
-    --card-foreground: 336 24% 20%;
+    --card: 30 20% 95%;
+    /* Crema claro (para las tarjetas) */
+    --card-foreground: 30 10% 10%;
     /* Marrón oscuro */
-    --popover: 0 0% 100%;
-    /* Blanco */
-    --popover-foreground: 336 24% 20%;
+    --popover: 30 20% 95%;
+    /* Crema claro (para los popovers) */
+    --popover-foreground: 30 10% 10%;
     /* Marrón oscuro */
-    --primary: 340 80% 60%;
-    /* Rosa fuerte (para elementos principales) */
-    --primary-foreground: 0 0% 100%;
-    /* Blanco (para textos sobre elementos principales) */
-    --secondary: 340 80% 90%;
-    /* Rosa muy claro (para fondos secundarios) */
-    --secondary-foreground: 336 24% 20%;
+    --primary: 30 40% 35%;
+    /* Marrón medio (para elementos principales) */
+    --primary-foreground: 30 20% 95%;
+    /* Crema claro (para textos sobre elementos principales) */
+    --secondary: 30 30% 90%;
+    /* Crema (para fondos secundarios) */
+    --secondary-foreground: 30 10% 10%;
     /* Marrón oscuro (para textos sobre fondos secundarios) */
-    --muted: 340 60% 95%;
-    /* Rosa pálido (para fondos apagados) */
-    --muted-foreground: 336 24% 40%;
+    --muted: 30 30% 80%;
+    /* Crema pálido (para fondos apagados) */
+    --muted-foreground: 30 20% 40%;
     /* Marrón claro (para textos sobre fondos apagados) */
-    --accent: 340 80% 70%;
-    /* Rosa claro (para elementos de acento) */
-    --accent-foreground: 336 24% 20%;
+    --accent: 45 70% 50%;
+    /* Dorado (para elementos de acento) */
+    --accent-foreground: 30 10% 10%;
     /* Marrón oscuro (para textos sobre elementos de acento) */
     --destructive: 0 80% 60%;
     /* Rojo fuerte (para elementos destructivos) */
     --destructive-foreground: 0 0% 100%;
     /* Blanco (para textos sobre elementos destructivos) */
-    --border: 340 60% 90%;
-    /* Rosa muy claro (para bordes) */
-    --input: 340 60% 90%;
-    /* Rosa muy claro (para campos de entrada) */
-    --ring: 340 80% 60%;
-    /* Rosa fuerte (para anillos de enfoque) */
+    --border: 30 20% 80%;
+    /* Crema claro (para bordes) */
+    --input: 30 20% 80%;
+    /* Crema claro (para campos de entrada) */
+    --ring: 30 40% 35%;
+    /* Marrón medio (para anillos de enfoque) */
     --radius: 1rem;
     /* Radio de borde para elementos */
   }
-
-
 }
-
-
 
 @layer base {
   * {

@@ -19,7 +19,7 @@ export const Navbar = () => {
       <div className='container flex flex-col w-full'>
         <div className='flex justify-center w-full '>
           <LinkUI href='/' className='p-4 group '>
-            <Typography variant='h1' className={cn('w-fit hover:text-primary  font-bold text-center p-2 text-primary-foreground', gt.className)}>Corazones y Pétalos</Typography>
+            <Typography variant='h1' className={cn('w-fit hover:text-primary  font-bold text-center p-2 text-primary-foreground', gt.className)}>El Rincón del Chocolate</Typography>
           </LinkUI>
         </div>
         <div className='flex flex-col items-center justify-center w-full gap-4 my-4 md:flex-row text-primary-foreground'>

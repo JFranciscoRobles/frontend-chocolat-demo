@@ -12,9 +12,9 @@ export function ItemsSection () {
   return (
     <div className='py-8 bg-primary'>
       <div className='my-8'>
-        <Typography variant='h2' className='container text-center text-primary-foreground'>Conoce nuestros mas hermosos ramos.</Typography>
+        <Typography variant='h2' className='container text-center text-primary-foreground'>Conoce nuestros chocolates.</Typography>
       </div>
-      <div className='container grid grid-cols-2 gap-6 my-12 lg:grid-cols-4'>
+      <div className='container grid gap-6 my-12 lg:grid-cols-4'>
         {products.map((item) => (
           <ItemCardInfo key={`section-${item.id}`} item={item} />
         )
@@ -22,7 +22,7 @@ export function ItemsSection () {
       </div>
       <div className='flex justify-center w-full mb-6'>
         <LinkUI href='/flores'>
-          <Button variant='secondary' size='lg'>Quiero ver mas Ramos</Button>
+          <Button variant='secondary' size='lg'>Quiero ver mas chocolates</Button>
         </LinkUI>
       </div>
     </div>

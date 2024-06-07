@@ -7,7 +7,7 @@ function Page () {
     <main className='flex flex-col w-full my-8 '>
       <div className='my-12'>
         <Typography variant='h1' className='text-center'>
-          Conoce nuestro inventario de flores
+          Conoce nuestro inventario de chocolates
         </Typography>
       </div>
       <div>

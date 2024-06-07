@@ -20,8 +20,8 @@ const montserrat = Raleway({
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const metadata = {
-  title: 'Flores',
-  description: 'Bienvenido a Flores JFR'
+  title: 'Chocolates',
+  description: 'Bienvenido a Chocolates JFR'
 }
 
 export default function Layou ({ children }: Args) {

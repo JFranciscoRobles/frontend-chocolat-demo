@@ -9,7 +9,7 @@ export interface CartType {
     quantity: number;
 }
 
-export const cartItemsAtom = atomWithStorage<CartType[]>('cart', [])
+export const cartItemsAtom = atomWithStorage<CartType[]>('cart-chocolat', [])
 
 export const useAddToCart = () => {
   const [, setCart] = useAtom(cartItemsAtom)

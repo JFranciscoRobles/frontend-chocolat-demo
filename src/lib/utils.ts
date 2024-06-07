@@ -11,8 +11,8 @@ export const menuData = [
     link: '/'
   },
   {
-    title: 'Todas las Flores',
-    link: '/flores'
+    title: 'Todos los chocolates',
+    link: '/chocolates'
   },
   {
     title: 'Sobre Nosotros',
